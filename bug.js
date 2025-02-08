@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library. The issue arises when attempting to access the `uri` property of the image object returned by the `launchImageLibraryAsync` function. The `uri` property might be undefined or null under certain circumstances, leading to unexpected behavior or errors in your application.
